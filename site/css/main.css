@@ -3,3 +3,6 @@ body {
   color: #b6a49c;
   font-family: korpo_sansregular;
 }
+#mainContainer {
+  margin-left: 20px;
+}
