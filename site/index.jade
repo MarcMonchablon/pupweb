@@ -24,8 +24,15 @@ html(lang="en", ng-app="soocial")
         p Salut c&#39;est Marc !
         
       section
-        h2.resume CV
-        include ./includes/cv.jade
+        h2
+          span.fa-stack
+            i.fa.fa-smile-o.fa-stack-1x
+            i.fa.fa-file-o.fa-stack-2x
+          | &nbsp;
+          | CV
+        .row
+          .col-md-10.col-md-offset-1
+            include ./includes/cv.jade
         
       section   
         h2 Me contacter
