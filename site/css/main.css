@@ -3,6 +3,13 @@ body {
   color: #b6a49c;
   font-family: korpo_sansregular;
 }
-#mainContainer {
-  margin-left: 20px;
+.mainContainer {
+  margin: auto;
+  background-color: #141414;
+}
+section {
+  border-top: 3px solid #753d27;
+}
+section:first-child {
+  border-top: none;
 }
