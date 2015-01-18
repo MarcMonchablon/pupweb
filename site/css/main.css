@@ -16,3 +16,23 @@ section:first-child {
 span.fa-stack {
   font-size: 0.5em;
 }
+.skills {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.skills.computerLanguage {
+  background-color: rgba(200,34,56,0.3);
+  border: 3px solid rgba(200,34,56,0.4);
+}
+.skills.computerVision {
+  background-color: rgba(255,252,25,0.3);
+  border: 3px solid rgba(255,252,25,0.4);
+}
+.skills.software {
+  background-color: rgba(9,37,178,0.3);
+  border: 3px solid rgba(9,37,178,0.4);
+}
+.skills.languages {
+  background-color: rgba(121,255,13,0.3);
+  border: 3px solid rgba(121,255,13,0.4);
+}

@@ -24,3 +24,32 @@ span.fa-stack
   font-size 0.5em
   
 
+_skillsBgOpacity = 0.3
+_skillsBorderOpacity = 0.4
+
+_computerLanguageColor = #C82238
+_computerVisionColor = #FFFC19
+_softwareColor = #0925B2
+_languagesColor = #79FF0D
+
+
+
+
+.skills
+  padding 20px
+  margin-bottom 30px
+  &.computerLanguage
+    background-color rgba(_computerLanguageColor, _skillsBgOpacity)
+    border 3px solid rgba(_computerLanguageColor, _skillsBorderOpacity)
+  &.computerVision
+    background-color rgba(_computerVisionColor, _skillsBgOpacity)
+    border 3px solid rgba(_computerVisionColor, _skillsBorderOpacity)
+  &.software
+    background-color rgba(_softwareColor, _skillsBgOpacity)
+    border 3px solid rgba(_softwareColor, _skillsBorderOpacity)
+  &.languages
+    background-color rgba(_languagesColor, _skillsBgOpacity)
+    border 3px solid rgba(_languagesColor, _skillsBorderOpacity)            
+
+    
+    
