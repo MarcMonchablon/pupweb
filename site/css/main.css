@@ -3,6 +3,13 @@ body {
   color: #b6a49c;
   font-family: korpo_sansregular;
 }
+header {
+  height: 30em;
+  background-image: url("../ressources/materials/congruent_pentagon.png");
+}
+header img {
+  height: 30em;
+}
 .mainContainer {
   margin: auto;
   background-color: #141414;
