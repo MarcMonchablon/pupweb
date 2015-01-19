@@ -10,6 +10,10 @@ header {
 header img {
   height: 30em;
 }
+header p {
+  font-size: 2.5em;
+  color: #000;
+}
 .mainContainer {
   margin: auto;
   background-color: #141414;
