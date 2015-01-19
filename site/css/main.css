@@ -15,10 +15,13 @@ header img {
   background-color: #141414;
 }
 section {
-  border-top: 3px solid #753d27;
+  border-top: 7px solid #753d27;
 }
-section:first-child {
-  border-top: none;
+section h2 {
+  width: 10em;
+  margin-top: 0;
+  padding: 0.3em;
+  background: #753d27;
 }
 span.fa-stack {
   font-size: 0.5em;

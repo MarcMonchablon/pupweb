@@ -1,5 +1,5 @@
-_mainContainerBackgroundColor = #141414
-_mainContainerSectionSeparatorColor = #753D27
+_mainBgColor = #141414
+_mainColor = #753D27
 
 _uiPanelSectionBackgroundColor_onHover = #1B1B1B
 _uiPanelSectionBackgroundColor_active = #1B1B1B
@@ -20,12 +20,15 @@ header
   
 .mainContainer
   margin auto
-  background-color _mainContainerBackgroundColor
+  background-color _mainBgColor
 
 section
-  border-top 3px solid _mainContainerSectionSeparatorColor
-  &:first-child
-    border-top none
+  border-top 7px solid _mainColor
+  h2
+    width 10em
+    margin-top 0
+    padding 0.3em
+    background _mainColor
 
 span.fa-stack
   font-size 0.5em
