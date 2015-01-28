@@ -71,6 +71,8 @@ header .personnalInfoLine a {
 }
 .mainContainer {
   margin: auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.4em;
   background-color: #141414;
 }
 section {
