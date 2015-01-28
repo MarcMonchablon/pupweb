@@ -9,19 +9,40 @@ body
   color _fontColor
   font-family korpo_sansregular
 
-_headerHeight = 30em  
+_desktopHeaderHeight = 30em  
 header
-  height _headerHeight
+  margin-top 1em
+  @media (min-width: 768px)
+    height _desktopHeaderHeight
   background-image url('../ressources/materials/congruent_pentagon.png')
   img
-    height _headerHeight
-  p
-    font-size 1.7em
-    color black
-    font-family 'Permanent Marker', cursive
-    text-indent 0.7em
-    &::first-line
-      font-size 1.4em
+    @media (min-width: 768px)
+      height _desktopHeaderHeight
+    @media (max-width: 768px)
+      width 100%
+  .greetings
+    padding-left 2em
+    padding-right 2em
+    p
+      font-size 1.7em
+      color black
+      font-family 'Permanent Marker', cursive
+      &.hi
+        font-size 2em
+        margin-left 0.7em
+   .personnalInfos
+     padding-left 1.3em
+     color black
+     font-size 100%
+     h3
+       font-weight bold
+       font-size 2em
+     a
+       color black
+     i
+       font-size 3em
+       margin-right 0.2em
+
   
 .mainContainer
   margin auto

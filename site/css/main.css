@@ -4,20 +4,52 @@ body {
   font-family: korpo_sansregular;
 }
 header {
-  height: 30em;
+  margin-top: 1em;
   background-image: url("../ressources/materials/congruent_pentagon.png");
 }
-header img {
-  height: 30em;
+@media (min-width: 768px) {
+  header {
+    height: 30em;
+  }
 }
-header p {
+@media (min-width: 768px) {
+  header img {
+    height: 30em;
+  }
+}
+@media (max-width: 768px) {
+  header img {
+    width: 100%;
+  }
+}
+header .greetings {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+header .greetings p {
   font-size: 1.7em;
   color: #000;
   font-family: 'Permanent Marker', cursive;
-  text-indent: 0.7em;
 }
-header p::first-line {
-  font-size: 1.4em;
+header .greetings p.hi {
+  font-size: 2em;
+  margin-left: 0.7em;
+}
+header .personnalInfos {
+  padding-left: 1.3em;
+  color: #000;
+  font-size: 100%;
+}
+header .personnalInfos h3 {
+  font-weight: bold;
+  font-size: 2em;
+}
+header .personnalInfos a {
+  color: #000;
+}
+header .personnalInfos i {
+  font-size: 3em;
+  margin-right: 0.2em;
 }
 .mainContainer {
   margin: auto;
