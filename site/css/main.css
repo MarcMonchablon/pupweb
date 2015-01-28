@@ -117,3 +117,7 @@ span.fa-stack {
   right: -0.1em;
   bottom: -0.2em;
 }
+.miscSkills {
+  background-color: rgba(156,182,177,0.1);
+  border: 3px solid rgba(156,182,177,0.2);
+}
