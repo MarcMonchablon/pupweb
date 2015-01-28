@@ -1,27 +1,13 @@
 header
   .row
-    .col-xs-12.greetings
-      p.hi Salut !
-      p.
-        Un jour j&#39;ai essayé la programmation et depuis je suis accro.
-      p.
-        Je m&#39;intéresse beaucoup aux technologies Web,
-        et je cherche un post (sur Paris) de junior dev plutôt côté front-end.
-      p.
-        Ah ! Aussi, je m&#39;appelle Marc.
     .col-xs-12
-      img(src="ressources/img/straight_line.png", title="phylacthère", alt="Phylactery")
-    .col-xs-5.personnalInfos
-      h3 Marc Monchablon
-      p
-        a(href="mailto:marcmonchablon@live.fr") marcmonchablon@live.fr
-      p
-        a(href="http://github.com/MarcMonchablon")
-          i.fa.fa-github-square
-        a(href="http://fr.linkedin.com/pub/marc-monchablon/8a/93a/455")
-          i.fa.fa-linkedin-square
+      include ./header/greetings.jade
+    .col-xs-12
+      include ./header/horizontalLine.jade
+    .col-xs-5
+      include ./header/personnalInfo.jade
     .col-xs-7
-      img(src="ressources/img/profil_head_alt.png", title="Me", alt="Picture of my head")
+      include ./header/headPicture.jade
       
       
 

@@ -23,8 +23,8 @@ header {
   }
 }
 header .greetings {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 header .greetings p {
   font-size: 1.7em;
@@ -35,19 +35,19 @@ header .greetings p.hi {
   font-size: 2em;
   margin-left: 0.7em;
 }
-header .personnalInfos {
-  padding-left: 1.3em;
+header .personnalInfo {
+  padding-left: 0.2em;
   color: #000;
   font-size: 100%;
 }
-header .personnalInfos h3 {
+header .personnalInfo h3 {
   font-weight: bold;
   font-size: 2em;
 }
-header .personnalInfos a {
+header .personnalInfo a {
   color: #000;
 }
-header .personnalInfos i {
+header .personnalInfo i {
   font-size: 3em;
   margin-right: 0.2em;
 }
