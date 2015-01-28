@@ -12,6 +12,7 @@ body
 _desktopHeaderHeight = 30em  
 header
   margin-top 1em
+  position relative
   @media (min-width: 768px)
     height _desktopHeaderHeight
   background-image url('../ressources/materials/congruent_pentagon.png')
@@ -44,7 +45,18 @@ header
        font-size 3em
        margin-right 0.2em
    .personnalInfoLine
-     color black
+     position absolute
+     bottom 0
+     right 1em
+     height 2em
+     font-size 1.2em
+     strong
+       color black
+       font-weight bold
+       font-size 1.2em
+       margin-right 1.5em
+     a
+       color black
      
 
   
