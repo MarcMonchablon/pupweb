@@ -37,6 +37,7 @@ header .greetings p.hi {
 }
 header .personnalInfo {
   padding-left: 0.2em;
+  margin-top: 80%;
   color: #000;
   font-size: 100%;
 }
@@ -50,6 +51,9 @@ header .personnalInfo a {
 header .personnalInfo i {
   font-size: 3em;
   margin-right: 0.2em;
+}
+header .personnalInfoLine {
+  color: #000;
 }
 .mainContainer {
   margin: auto;
