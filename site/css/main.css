@@ -88,6 +88,8 @@ span.fa-stack {
   font-size: 0.5em;
 }
 .skills {
+  position: relative;
+  overflow: hidden;
   height: 15em;
   padding: 20px;
   margin-bottom: 30px;
@@ -107,4 +109,11 @@ span.fa-stack {
 .skills.languages {
   background-color: rgba(121,255,13,0.3);
   border: 3px solid rgba(121,255,13,0.4);
+}
+.skills i.backgroundIcon {
+  font-size: 13em;
+  opacity: 0.1;
+  position: absolute;
+  right: -0.1em;
+  bottom: -0.2em;
 }
