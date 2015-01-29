@@ -92,7 +92,18 @@ span.fa-stack {
   overflow: hidden;
   height: 15em;
   padding: 20px;
+  padding-top: 10px;
   margin-bottom: 30px;
+}
+.skills h4 {
+  margin-bottom: 1em;
+}
+.skills h5 {
+  margin-top: 0;
+}
+.skills .halfBlock {
+  float: left;
+  width: 50%;
 }
 .skills.computerLanguage {
   background-color: rgba(200,34,56,0.3);
