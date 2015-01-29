@@ -72,6 +72,19 @@ header .personnalInfoLine a {
 h3 i {
   opacity: 0.65;
 }
+table h4 {
+  font-size: inherit;
+  margin: 0;
+  font-weight: bold;
+}
+table p {
+  margin: 0;
+  font-style: italic;
+}
+table aside {
+  opacity: 0.8;
+  font-variant: small-caps;
+}
 .mainContainer {
   margin: auto;
   margin-top: 0.3em;
