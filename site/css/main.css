@@ -69,15 +69,6 @@ header .personnalInfoLine strong {
 header .personnalInfoLine a {
   color: #000;
 }
-h3 i {
-  opacity: 0.65;
-}
-ul {
-  list-style-type: square;
-}
-ul i {
-  opacity: 0.64;
-}
 table h4 {
   font-size: inherit;
   margin: 0;
@@ -97,6 +88,21 @@ table aside {
   margin-bottom: 0.4em;
   background-color: #141414;
 }
+.mainContainer h3 {
+  margin-bottom: 0.5em;
+}
+.mainContainer h3:first-child {
+  margin-top: 0;
+}
+.mainContainer h3:first-child i {
+  opacity: 0.65;
+}
+.mainContainer ul {
+  list-style-type: square;
+}
+.mainContainer ul i {
+  opacity: 0.64;
+}
 section {
   border-top: 7px solid #753d27;
 }
@@ -105,6 +111,9 @@ section h2 {
   margin-top: 0;
   padding: 0.3em;
   background: #753d27;
+}
+section h2:first-child {
+  margin-bottom: 0.7em;
 }
 span.fa-stack {
   font-size: 0.5em;
