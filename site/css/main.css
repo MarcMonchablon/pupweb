@@ -75,6 +75,9 @@ h3 i {
 ul {
   list-style-type: square;
 }
+ul i {
+  opacity: 0.64;
+}
 table h4 {
   font-size: inherit;
   margin: 0;
